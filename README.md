@@ -1,5 +1,5 @@
 # Lineage 2 OpenCV Fishing bot
-#### Bot tested on servers with no [Active Anticheat] (https://active-ac.com/)
+#### Bot tested on servers with no [Active Anticheat](https://active-ac.com/)
 #### The bot does not bypass Active Anticheat protection because it blocks win32api
 The pixel bot works on computer vision technology and is not injected into the game process.
 The script uses the [PyDirectInput](https://pypi.org/project/PyDirectInput/) library to emulate key input -- This library aims to replicate the functionality of the PyAutoGUI mouse and keyboard inputs, but by utilizing DirectInput scan codes and the more modern SendInput() win32 function.
