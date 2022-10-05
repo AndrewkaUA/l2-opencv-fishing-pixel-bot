@@ -1,4 +1,6 @@
 # Lineage 2 OpenCV Fishing bot
+#### Bot tested on all Asterios servers
+#### The bot does not bypass Active Anticheat protection because it blocks win32api
 The pixel bot works on computer vision technology and is not injected into the game process.
 The script uses the [PyDirectInput](https://pypi.org/project/PyDirectInput/) library to emulate key input -- This library aims to replicate the functionality of the PyAutoGUI mouse and keyboard inputs, but by utilizing DirectInput scan codes and the more modern SendInput() win32 function.
 More details can be found in the documentation https://pypi.org/project/PyDirectInput/
@@ -41,10 +43,17 @@ The bot uses the following keys. You must assign the following skills/macros in 
 - F5, F6, F7 -- Macros for pet/summon kill mobs
 - 2 -- Pet/Summoner attack skill
 
-- You have to create three macros to kill mobs via pet/sumon and put f5, f6, f7 buttons on the game panel:
+- You have to create three macros to kill mobs via pet/sumon and put f5, f6, f7 buttons on the game panel
 - /target Caught Homunculus
 /useshortcut 2 2
 - /target Caught Flava
 /useshortcut 2 2
 - /target Caught Gigantic Eye
 /useshortcut 2 2
+
+# Run script
+Open a terminal with admin rights and run the script
+```sh
+python main.py
+```
+An alternative way to run it is through any code editor with administrator rights, such as Visual Studio Code.
