@@ -41,7 +41,7 @@ The bot uses the following keys. You must assign the following skills/macros in 
 - F5, F6, F7 -- Macros for pet/summon kill mobs
 - 2 -- Pet/Summoner attack skill
 
-- You have to create three macros to kill mobs via pet/sumon and put f5, f6, f7 buttons on the game panel
+- You have to create three macros to kill mobs via pet/sumon and put f5, f6, f7 buttons on the game panel:
 - /target Caught Homunculus
 /useshortcut 2 2
 - /target Caught Flava
